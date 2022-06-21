@@ -1,7 +1,7 @@
 # Krayen | Full Stack Developer Assignment
 
 ## Fullstack Code Challenge
-Krayen is a technology startup focused on helping DTC brands drive profitable revenue growth using data. We help brands grow & scale through our suite of productivity & analytics applications. 
+Krayen is a technology startup focused on helping DTC brands drive profitable revenue growth using data. We help brands grow & scale through our suite of productivity & analytics applications.
 We are a team of designers, programmers, engineers & marketers passionate about Retail 3.0 and the DTC deluge. We’re working with brands from the USA and Europe and are on our path to attain our product market fit.
 We are looking to work with people who are passionate about solving real world problems using technology to join our Engineering team.
 
