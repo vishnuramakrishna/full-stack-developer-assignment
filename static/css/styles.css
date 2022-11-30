@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "li {\n",
+        "   width: 250px;\n",
+        "  }\n",
+        "\n",
+        "body {\n",
+        "    background-color: #E0E0E0;\n",
+        "    padding: 10px;\n",
+        "    text-align: center;\n",
+        "    color: black;\n",
+        "  }\n",
+        "\n",
+        "h1 {\n",
+        "  margin-top: -.3em;\n",
+        "  margin-bottom: 0em;\n",
+        "    }\n",
+        "h2 {margin:5px;}\n",
+        "\n",
+        ".container {width: 31.7%; float:left;clear: right;margin:10px; border-radius: 15px;}\n",
+        ".container2 {align-content: center; padding-left: 550px; padding-top: 400px; padding-right: 550px;}\n",
+        "\n",
+        "\n",
+        ".sortable { list-style-type: none; margin:0; padding:10px; min-height:30px; border-radius: 5px;}\n",
+        ".sortable li span { position: absolute; margin-left: -1.3em; }\n",
+        "\n",
+        ".card {\n",
+        "            display: inline-block;\n",
+        "            vertical-align: top;\n",
+        "            padding: 10px;\n",
+        "            width: 300px;\n",
+        "            height: 200px;\n",
+        "            color: black;\n",
+        "            background: #ff8;\n",
+        "            text-align: center;\n",
+        "            font-family: \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;\n",
+        "            box-shadow: 3px 3px 3px lightgrey;\n",
+        "        }\n",
+        "\n",
+        "/* The container must be positioned relative: */\n",
+        ".custom-select {\n",
+        "  position: relative;\n",
+        "  font-family: Arial;\n",
+        "}\n",
+        "\n",
+        ".custom-select select {\n",
+        "  display: none; /*hide original SELECT element: */\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "ARwY-INj3wKA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
