@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html>\n",
+        "\n",
+        "<head>\n",
+        "    <meta charset=\"utf-8\">\n",
+        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, shrink-to-fit=no\">\n",
+        "    <title>Untitled</title>\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='fonts/ionicons.min.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='css/Login-Form-Clean.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='css/Registration-Form-with-Photo.css') }}\">\n",
+        "</head>\n",
+        "\n",
+        "<body>\n",
+        "    <h1 class=\"display-3\" align=\"center\" style=\"margin-top: 10px\">Welcome To Kanban Board</h1>\n",
+        "    <div class=\"register-photo\">\n",
+        "        <div class=\"form-container\">\n",
+        "            <div class=\"image-holder\"></div>\n",
+        "            <form method=\"POST\" action=\"/register\">\n",
+        "                <h2 class=\"text-center\"><strong>Create</strong> an account.</h2>\n",
+        "                <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"username\" placeholder=\"Enter A Username\" required></div>\n",
+        "                <div class=\"form-group\"><input class=\"form-control\" type=\"password\" name=\"password\" placeholder=\"Password\" required></div>\n",
+        "                <div class=\"form-group\"><input class=\"form-control\" type=\"password\" name=\"repeat\" placeholder=\"Password (repeat)\" required></div>\n",
+        "                <div class=\"form-group\"><button class=\"btn btn-primary btn-block\" type=\"submit\" value=\"Register\">Sign Up</button>\n",
+        "                </div><a class=\"already\" href=\"http://127.0.0.1:5000/login\">You already have an account? Login here.</a>\n",
+        "            </form></div>\n",
+        "    </div>\n",
+        "    <script src=\" {{ url_for('static', filename='js/jquery.min.js') }}\"></script>\n",
+        "    <script src=\"{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}\"></script>\n",
+        "\n",
+        "\n",
+        "\n",
+        "{% if error %}\n",
+        "    <p class=\"alert alert-danger\" role=\"alert\" align=\"center\" ><strong>OOPS:</strong> {{ error }}\n",
+        "{% endif %}\n",
+        "</body>\n",
+        "\n",
+        "</html>"
+      ],
+      "metadata": {
+        "id": "nx2rZvoNF0v-"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
