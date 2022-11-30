@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html>\n",
+        "\n",
+        "<head>\n",
+        "    <meta charset=\"utf-8\">\n",
+        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, shrink-to-fit=no\">\n",
+        "    <title>login</title>\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='fonts/ionicons.min.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='css/Login-Form-Clean.css') }}\">\n",
+        "    <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='css/Registration-Form-with-Photo.css') }}\">\n",
+        "</head>\n",
+        "\n",
+        "<body><div class=\"login-clean\">\n",
+        "    <form method=\"POST\" action=\"\">\n",
+        "        <h2 class=\"sr-only\">Login Form</h2>\n",
+        "        <div class=\"illustration\"><i class=\"icon ion-ios-navigate\"></i></div>\n",
+        "        <div class=\"form-group\"><input class=\"form-control\" type=\"text\" name=\"username\" placeholder=\"Username\" value=\"{{request.form.username}}\" /></div>\n",
+        "        <div class=\"form-group\"><input class=\"form-control\" type=\"password\" name=\"password\" placeholder=\"Password\" value=\"{{request.form.password}}\" /></div>\n",
+        "        <div class=\"form-group\"><button class=\"btn btn-primary btn-block\" type=\"submit\" value=\"Login\">Log In</button></div><a class=\"forgot\" href=\"http://127.0.0.1:5000/register\">Don't have an account? Register Now </a></form>\n",
+        "    {% if error %}\n",
+        "        <p class=\"alert alert-danger\" role=\"alert\" align=\"center\" ><strong>OOPS:</strong> {{ error }}\n",
+        "    {% endif %}\n",
+        "\n",
+        "</div>\n",
+        "    <script src=\" {{ url_for('static', filename='js/jquery.min.js') }}\"></script>\n",
+        "    <script src=\"{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}\"></script>\n",
+        "</body>\n",
+        "\n",
+        "</html>\n"
+      ],
+      "metadata": {
+        "id": "NXvIi06EEzX_"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
