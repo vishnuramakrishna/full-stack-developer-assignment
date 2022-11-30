@@ -1,0 +1,96 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        ".login-clean {\n",
+        "  background: white;\n",
+        "  padding: 80px 0;\n",
+        "}\n",
+        "\n",
+        ".login-clean form {\n",
+        "  max-width: 320px;\n",
+        "  width: 90%;\n",
+        "  margin: 0 auto;\n",
+        "  background-color: #ffffff;\n",
+        "  padding: 40px;\n",
+        "  border-radius: 4px;\n",
+        "  color: #505e6c;\n",
+        "  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);\n",
+        "}\n",
+        "\n",
+        ".login-clean .illustration {\n",
+        "  text-align: center;\n",
+        "  padding: 0 0 20px;\n",
+        "  font-size: 100px;\n",
+        "  color: #0069D9;\n",
+        "}\n",
+        "\n",
+        ".login-clean form .form-control {\n",
+        "  background: #f7f9fc;\n",
+        "  border: none;\n",
+        "  border-bottom: 1px solid #dfe7f1;\n",
+        "  border-radius: 0;\n",
+        "  box-shadow: none;\n",
+        "  outline: none;\n",
+        "  color: inherit;\n",
+        "  text-indent: 8px;\n",
+        "  height: 42px;\n",
+        "}\n",
+        "\n",
+        ".login-clean form .btn-primary {\n",
+        "  background: #0069D9;\n",
+        "  border: none;\n",
+        "  border-radius: 4px;\n",
+        "  padding: 11px;\n",
+        "  box-shadow: none;\n",
+        "  margin-top: 26px;\n",
+        "  text-shadow: none;\n",
+        "  outline: none !important;\n",
+        "}\n",
+        "\n",
+        ".login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {\n",
+        "  background: #eb3b60;\n",
+        "}\n",
+        "\n",
+        ".login-clean form .btn-primary:active {\n",
+        "  transform: translateY(1px);\n",
+        "}\n",
+        "\n",
+        ".login-clean form .forgot {\n",
+        "  display: block;\n",
+        "  text-align: center;\n",
+        "  font-size: 12px;\n",
+        "  color: black;\n",
+        "  opacity: 0.9;\n",
+        "  text-decoration: none;\n",
+        "}\n",
+        "\n",
+        ".login-clean form .forgot:hover, .login-clean form .forgot:active {\n",
+        "  opacity: 1;\n",
+        "  text-decoration: none;\n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "4xpuuY1f1hjB"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
